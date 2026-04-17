@@ -17,7 +17,7 @@ This confirms the document existed at the stamped date via Bitcoin blockchain at
 
 ## Important Notice
 
-Keep in mind: this first research paper has not included the option intended for AEP v2.0 to simply add memory to the Deterministic Adjudication Lattices.
+Keep in mind: this first research paper has not included the option intended for AEP v2.0 to simply add memory to the Deterministic Adjudication Lattices. This is a deliberate choice to illustrate the ground state of the system before any improvements to it happen.
 
 With memory-augmented lattices: the calculus is changed significantly. If the lattice retains memory of previously validated outputs and their structure, it can effectively raise α_T for any model feeding into it - the lattice's memory provides implicit conditioning that the paper's Theorem 3.2 only gets via in-context exemplars (with all the fragility Observation 3.2 admits). 
 
