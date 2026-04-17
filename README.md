@@ -32,7 +32,7 @@ A memory-augmented lattice could make α_T for a cheap model approach α_T for a
 ## Submitted to: cs.AI (cross-listed cs.FL, cs.SE)
 ## April 2026
 
-#Authorship commitment: This document (PDF version) was timestamped via OpenTimestamps. The matching .ots proof is available upon authorship dispute claim.
+Authorship commitment: This document (PDF version) was timestamped via OpenTimestamps. The matching .ots proof is available upon authorship dispute claim.
 
 ## Abstract
 Generative agents produce structured outputs with no formal guarantee of correctness. Prevailing approaches to output validation, including reinforcement learning from human feedback, static guardrail classifiers and single-pass output filtering, are inherently probabilistic and furnish no convergence proof. We introduce the adjudication lattice framework, in which an evolutionary population of candidate outputs is iteratively filtered through a hierarchical lattice of deterministic verification predicates. A secondary discriminator evaluates fitness among survivors. We prove that under mild conditions on the lattice structure and population dynamics, this process converges to a zero-defect output in bounded generations, with population size logarithmic in the inverse failure probability. 
