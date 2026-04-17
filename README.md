@@ -25,7 +25,7 @@ A memory-augmented lattice could make α_T for a cheap model approach α_T for a
 
 ## Deterministic Adjudication Lattices and Evolutionary Convergence in Constrained Generative Agent Populations
 
-## the.PM
+## the.PM (https://x.com/thePM_001)
 ## Iberian Peninsula Human Civilization Continuation Project
 ## New Lisbon Agency
 ## Correspondence: support@newlisbon.agency
