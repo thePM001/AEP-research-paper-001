@@ -4,9 +4,8 @@ Research paper for the Agent Element Protocol (AEP) by the New Lisbon Agency.
 
 ## Files
 
-- DAL-AEP-research-paper.pdf - Full paper (corrected)
+- DAL-AEP-research-paper.pdf - Full paper
 - DAL-AEP-research-paper.pdf.ots - OpenTimestamps proof of prior existence
-- DETERM_1_ERRATA.pdf - Errata
 
 ## Verify timestamp
 
