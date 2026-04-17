@@ -1,6 +1,6 @@
 ﻿# AEP Research Paper 001: Deterministic Adjudication Lattices and Evolutionary Convergence in Constrained Generative Agent Populations
 
-Research paper for the Agent Element Protocol (AEP) by the New Lisbon Agency.
+Research paper for the Agent Element Protocol (AEP) by the New Lisbon Agency/Iberian Peninsula Human Civilization Continuation Project (IPHCCP).
 
 ## Files
 
