@@ -83,12 +83,13 @@ Section 2 establishes the mathematical preliminaries and notation. Section 3 dev
 ## 2.1  Generative Processes
 
 ## Definition 2.1 (Generative Process).
-'
+
 A generative process is a stochastic map G: S × Z → O, where S is a specification space (the set of all valid prompts, schemas or task descriptions), Z is a latent noise space equipped with a probability measure ν, and O is the output space. Each invocation G(s, z) for s ∈ S, z ~ ν produces a candidate output o ∈ O.
 
 The specification s encodes the deterministic requirements that an output must satisfy. The latent variable z captures the stochastic element of generation. We write G(s) to denote the random variable obtained by marginalizing over z, so that G(s) has distribution μₛ on O induced by the pushforward of ν through G(s, ·).
 
 ## Definition 2.2 (Defect Function).
+
 The defect function d: O × S → {0, 1}ᵏ maps each output-specification pair to a binary vector of length k, where k is the number of defect categories. The i-th component dᵢ(o, s) = 1 indicates the presence of a defect of type i. An output o is zero-defect with respect to specification s if and only if d(o, s) = 0ᵏ, the zero vector.
 
 The defect categories are application-dependent. Typical categories include structural invalidity (the output does not conform to the required schema), semantic incorrectness (the output is well-formed but violates domain constraints), coherence failure (the output is inconsistent with prior outputs in a sequence) and temporal staleness (the output was generated from an outdated context). We assume that the defect function is well defined for all output-specification pairs, though it need not be efficiently computable.
